@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MARUVALVU / மருவல்வு</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
+  <style>
+    /* Additional styles for the loader */
+    .loading {
+      display: none;
+      
+    }
+    .loading h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+  animation: text-animation 2s ease-in-out infinite;
+}
+  </style>
+</head>
+<body>
+  <!-- Language selection form -->
+  <div id="language-selection">
+    <h2>Choose your preferred language to continue / <br><span>தொடர, உங்களுக்கு விருப்பமான மொழியைத் தேர்ந்தெடுக்கவும் :</span></h2>
+    <form id="language-form">
+      <label for="language-select">Language / மொழி :&nbsp&nbsp</label>
+      <select id="language-select">
+        <option value="ta"><b>தமிழ் </b></option>
+        <option value="en"><b>English<b></option>
+      </select>
+      <button type="submit"><b>Submit / சமர்ப்பிக்கவும்</b>
+      </button>
+    </form>
+  </div>
+
+  <!-- Loader -->
+  <div id="loader" class="loading">
+    <h2 id="loading-text">Aswin</h2>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <script>
+    document.getElementById('language-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // Get the selected language
+      var languageSelect = document.getElementById('language-select');
+      var selectedLanguage = languageSelect.value;
+
+      // Hide the language selection form
+      document.getElementById('language-selection').style.display = 'none';
+
+      // Show the loader
+      document.getElementById('loader').style.display = 'block';
+
+      // Set the loading text based on the selected language
+      var loadingText = document.getElementById('loading-text');
+      if (selectedLanguage === 'en') {
+        loadingText.textContent = 'Initializing Maruvalvu Chat, Please wait...';
+      } else if (selectedLanguage === 'ta') {
+        loadingText.textContent = 'மருவல்வு சாட்போட்டை துவக்குகிறது, காத்திருக்கவும்...';
+      }
+
+      // Delay the redirection for 2 seconds
+      setTimeout(function () {
+        // Redirect to the destination site based on the selected language
+        if (selectedLanguage === 'en') {
+          window.location.href = 'english.html';
+        } else if (selectedLanguage === 'ta') {
+          window.location.href = 'tamil.html';
+        }
+      }, 5000);
+    });
+  </script>
+</body>
+</html>
