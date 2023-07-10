@@ -1,8 +1,8 @@
-# Maruvalvu Chatbot Website
+![image](https://github.com/aswin-kumar7/maruvalvu-chat/assets/84719302/fdcacacc-4e0b-4c5b-9e72-45e2b929b4b5)# Maruvalvu Chatbot Website
 
 Maruvalvu Chatbot is an interactive and intelligent chatbot designed to provide assistance and engage with users in real-time. This README document provides an overview of the Maruvalvu Chatbot website and includes instructions for setting up and customizing the project. The website includes best animated icons and a visually appealing interface to enhance user experience.
 
-![Maruvalvu Chatbot Website - Page 1](https://cdn.discordapp.com/attachments/561541150624972820/1127966933627711498/image.png)
+![Maruvalvu Chatbot Website - Page 1](https://cdn.discordapp.com/attachments/561541150624972820/1127966901599993956/image.png)
 ![Maruvalvu Chatbot Website - Page 2](https://cdn.discordapp.com/attachments/561541150624972820/1127966933627711498/image.png)
 
 
@@ -22,37 +22,4 @@ Maruvalvu Chatbot is an interactive and intelligent chatbot designed to provide 
 
 ## Getting Started
 
-Follow the instructions below to get started with Maruvalvu Chatbot on your local machine.
-
-### Prerequisites
-
-- Web browser (Google Chrome, Mozilla Firefox, etc.)
-- Internet connection
-
-### Installation
-
-1. Clone the repository to your local machine using the following command:
-
-   ```shell
-   git clone https://github.com/your-username/maruvalvu-chatbot.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```shell
-   cd maruvalvu-chatbot
-   ```
-
-3. Open the `index.html` file in your preferred web browser.
-
-### Configuration
-
-To customize the chatbot and its appearance, you can modify the configuration settings in the `config.js` file.
-
-```javascript
-// config.js
-
-const config = {
-  botName: 'Maruvalvu Bot',
-  botAvatar: 'images/avatar.png',
-  welcomeMessage
+Follow the instructions to get started with Maruvalvu Chatbot - https://bit.ly/MARUVALVU-USERMANUAL
