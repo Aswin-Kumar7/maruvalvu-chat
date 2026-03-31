@@ -1,27 +1,38 @@
-# Maruvalvu Chatbot Website
+# 🏥 Maruvalvu Chatbot Website
+> *An interactive, scripted chatbot created for PSG Nursing to provide assistance and motivation to users regarding alcohol reduction.*
 
-Maruvalvu Chatbot is an interactive and intelligent chatbot designed to provide assistance and motivation with users about alchol consuption. This README document provides an overview of the Maruvalvu Chatbot website and includes instructions for setting up and customizing the project. The website includes best animated icons and a visually appealing interface to enhance user experience.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-![Maruvalvu Chatbot Website - Page 1](https://cdn.discordapp.com/attachments/561541150624972820/1127966901599993956/image.png)
-![Maruvalvu Chatbot Website - Page 2](https://cdn.discordapp.com/attachments/561541150624972820/1127966933627711498/image.png)
+This project acts on predefined conversational scripts designed by professionals. It features high-quality animated icons and an accessible, visually appealing interface to ensure a seamless and supportive user experience.
 
+---
 
-## Features
+## ✨ Features
 
-- Interactive chat interface for engaging conversations
-- English and Tamil Supported
-- Animated icons for a visually appealing experience
-- Customizable design and theme options
+- 💬 **Interactive Chat Interface:** Engaging, script-based conversational flows designed for coaching and support.
+- 🌍 **Bilingual Support:** Fully functional in both English and Tamil languages.
+- 🎨 **Visual Appeal:** Beautiful animated icons and a clean interface meant for maximum engagement.
+- ⚙️ **Customizability:** Flexible design and modular theme options.
 
-## Technologies Used
+---
 
-- HTML, CSS, and JavaScript for the website structure and styling
-- Js for Scripting the Chatbot
+## 🛠️ Technologies Used
 
-## Getting Started
+- **User Interface:** HTML5 and CSS3 for strong structure and modern styling.
+- **Logic & Behavior:** Vanilla JavaScript (JS) utilized for execution of the entire client-side chatbot scripted interaction.
 
-Follow the instructions to get started with Maruvalvu Chatbot - https://bit.ly/MARUVALVU-USERMANUAL
+---
 
-## Credits
+## 🚀 Getting Started
 
-Aswin Kumar and Sriraam
+To get started with setting up, customizing, or experiencing the Maruvalvu Chatbot, please refer to our comprehensive user manual.
+
+📘 [**Click Here for the Maruvalvu User Manual**](https://bit.ly/MARUVALVU-USERMANUAL)
+
+---
+
+## 🤝 Credits
+
+Developed with ❤️ by **Aswin Kumar** & **Sriraam**
